@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width = device-width, initial-scale=1.0" />
+		<title>Курсы по сборке ПК</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+	<script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+	<body>
+		<header class="header" id="main">
+			<div class="menuWrapper">	
+
+				<div class="leftHeader">
+					<div class="mainLogo"></div>					
+					<nav class="menuNav">
+						<ul class="menuList">
+							<li class="menuItem"><a href="#main" class="menuLink">Главная</a></li>
+							<li class="menuItem"><a href="#target" class="menuLink">Наши цели</a></li>
+							<li class="menuItem"><a href="#fastStart" class="menuLink">Быстрый старт</a></li>
+							<li class="menuItem"><a href="#program" class="menuLink">Программа</a></li>
+							<li class="menuItem"><a href="#teachers" class="menuLink">Преподователи</a></li>
+							<li class="menuItem"><a href="#subscribe" class="menuLink">Рассылка</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="menuBurger" id="burgerBut">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<div class="rightHeader">
+					<div class="loginButWrapper">
+						<button class="loginBut">
+							<span>Зайти в кабинет</span>
+							<img src="../res/icons/loginIcon.png" alt="login">
+						</button>
+					</div>
+				</div>
+
+				<div class="burgerMenuContainer" id="burgerListContainer">
+					<ul class="burgerMenuList">
+						<li class="burgerMenuItem"><a href="#main" class="menuLink">Главная</a></li>
+						<li class="burgerMenuItem"><a href="#target" class="menuLink">Наши цели</a></li>
+						<li class="burgerMenuItem"><a href="#fastStart" class="menuLink">Быстрый старт</a></li>
+						<li class="burgerMenuItem"><a href="#program" class="menuLink">Программа</a></li>
+						<li class="burgerMenuItem"><a href="#teachers" class="menuLink">Преподователи</a></li>
+						<li class="burgerMenuItem"><a href="#subscribe" class="menuLink">Рассылка</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="commonWrapper headerTimer">
+				<div class="mainLogoTimer">
+					<h1 class="mainDescription">Первый курс по компьютерной сборке</h1>
+					<div class="timerWrapper">
+						<div class="timerBlock"><span class="clock" id="day">18</span><span class="timeBlockName opacity40" id="dayText">Дней</span></div>
+						<div class="timerBlock"><span class="clock" id="hour">18</span><span class="timeBlockName opacity40" id="hourText">Часов</span></div>
+						<div class="timerBlock"><span class="clock" id="min">18</span><span class="timeBlockName opacity40" id="minText">Минут</span></div>
+						<div class="timerBlock"><span class="clock" id="sec">18</span><span class="timeBlockName opacity40" id="secText">Секунд</span></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="commonWrapper commonWrapperPaddingTop coursesStats">
+				<div class="orderCourse">
+					<button class="orderCourseBut whiteBoldText">Заказать курс</button>
+				</div>
+				<div class="studentsStatsWrapper">
+					<div class="studentsStat">
+						<span class="opacity40">Учеников всего:</span>
+						<span class="whiteBoldText">200</span>
+					</div>
+					<div class="studentsStat">
+						<span class="opacity40">Успешно закончили курс:</span>
+						<span class="whiteBoldText">190</span>
+					</div>
+				</div>
+				<div class="moneyStats">
+					<div class="studentsEarn">
+						<span class="opacity40">Заработано Учениками:</span>
+						<span class="whiteBoldText">400 000P</span>
+					</div>
+					<div class="moneyEarnProgressContainer">
+						<div id="earnProgress"></div>
+					</div>
+					<div class="moneyTarget">
+						<span class="opacity40">0</span>
+						<span class="opacity40">1 000 000P</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop aboutUsSection" id="target">
+				<div class="gradientBorderImageContainer">
+						<img src="../res/pcBorder.png" alt="pc" class="imageOnBorder" />				
+				</div>
+				<div class="aboutUsTextWrapper">
+					<h3 class="sectionHeader aboutUsHeader">Чем мы занимаемся</h3>
+					<p class="aboutUsDescription">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in
+						suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque,
+						adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem
+						felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum
+						aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis.
+					</p>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop fastStartWrapper" id="fastStart">
+				<div class="fastStartHeaderWrapper">
+					<img src="../res/icons/icon-heading.png" class="ellipseLogo" alt="ellipse" />
+					<h3 class="sectionHeader fastStartHeader">Быстрый старт</h3>
+					<p class="fastStartHeaderDescription opacity50">
+						Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+					</p>
+				</div>
+				<div class="percentStatsWrapper">
+					<div class="percentStat">
+						<div class="percent whiteBoldText">100%</div>
+						<div class="percentDescription opacity50">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor.
+							Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</div>
+					</div>
+					<div class="percentStat">
+						<div class="percent whiteBoldText">75%</div>
+						<div class="percentDescription opacity50">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor.
+							Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</div>
+					</div>
+					<div class="percentStat">
+						<div class="percent whiteBoldText">50%</div>
+						<div class="percentDescription opacity50">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor.
+							Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</div>
+					</div>
+					<div class="percentStat">
+						<div class="percent whiteBoldText">Итог</div>
+						<div class="percentDescription opacity50">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor.
+							Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop getProfessionWrapper">
+				<h3 class="sectionHeader getProfessionHeader">Получите профессию прямо сейчас</h3>
+				<div class="getProfessionContainer">
+						<img src="../res/icons/icon-1.png" alt="icon-1">
+						<h4 class="professionHeader">Только практические навыки в работе</h4>
+						<p class="professionDescription opacity80">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</p>
+						<img src="../res/icons/icon-2.png" alt="icon-2">
+						<h4 class="professionHeader">Работа на самом современном оборудовании</h4>
+						<p class="professionDescription opacity80">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</p>
+						<img src="../res/icons/icon-3.png" alt="icon-3">
+						<h4 class="professionHeader">Сертификация по окончании обучения</h4>
+						<p class="professionDescription opacity80">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+						</p>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop partnerWrapper">
+				<div class="partnerHeaderWrapper">
+					<img src="../res/icons/icon-heading.png" class="ellipseLogo" alt="ellipse">
+					<h3 class="sectionHeader partnerHeader">Партнеры - топовые бренды</h3>
+				</div>
+				<div class="partnersContainer">
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+					<div>
+						<img src="../res/icons/partner.png" alt="partner">
+					</div>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop programWrapper" id="program">
+				<div class="programHeaderWrapper">
+					<img src="../res/icons/icon-heading.png" class="ellipseLogo" alt="ellipse">
+					<h3 class="sectionHeader programHeader">Программа обучения</h3>
+					<p class="programDescription opacity50">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+				</div>
+				<div class="weekProgramWrapper">
+
+					<div class="verticalLine"></div>
+
+					<div class="weekBlock leftSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №1</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock rightSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №2</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock leftSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №3</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock rightSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №4</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock leftSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №5</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock rightSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №6</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+					<div class="weekBlock leftSideWeek">
+						<div class="commonWeekBlock">
+							<div class="weekNumber opacity50">Неделя №7</div>
+							<div class="weekDescription">Красивая часть курса, которая помогает в успехе</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop teachersWrapper" id="teachers">
+				<div class="teachersHeaderWrapper">
+					<img src="../res/icons/icon-heading.png" class="ellipseLogo" alt="ellipse">
+					<h3 class="sectionHeader">Ваши преподователи</h3>
+				</div>
+				<div class="teachersListWrapper">
+					<div class="teacherBlock">
+						<img src="../res/teacher1.jpg" alt="teacher1">
+						<h5 class="teacherNameHeader">Дмитрий Иванов</h5>
+						<span class="teacherDescription opacity80">Специалист по видеокартам</span>
+						<a href="#" class="biographyLink">Биография</a>
+					</div>
+					<div class="teacherBlock">
+						<img src="../res/teacher2.jpg" alt="teacher2">
+						<h5 class="teacherNameHeader">Дмитрий Иванов</h5>
+						<span class="teacherDescription opacity80">Специалист по видеокартам</span>
+						<a href="#" class="biographyLink">Биография</a>
+					</div>
+					<div class="teacherBlock">
+						<img src="../res/teacher3.jpg" alt="teacher3">
+						<h5 class="teacherNameHeader">Дмитрий Иванов</h5>
+						<span class="teacherDescription opacity80">Специалист по видеокартам</span>
+						<a href="#" class="biographyLink">Биография</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="commonWrapper commonWrapperPaddingTop subscribeWrapper" id="subscribe">
+				<h3 class="sectionHeader subscribeHeader">Статьи каждую неделю</h3>
+				<span class="subscribeDescription opacity50">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</span>
+				<form class="subscribeForm" action="">
+					<div class="subscribeMailBackground"></div>
+					<input class="subscribeMail" type="text" placeholder="E-mail">
+					<button class="subscribeBut">Подписаться</button>
+				</form>
+				<div class="socialContainer">
+					<a href="#">
+					<div class="socialBlock">
+							<img src="../res/icons/vk.png" alt="vk">
+						</a>
+					</div>
+					<div class="socialBlock">
+						<a href="#">
+							<img src="../res/icons/youtube.png" alt="youtube">
+						</a>
+					</div>
+					<div class="socialBlock">
+						<a href="#">
+							<img src="../res/icons/facebook.png" alt="facebook">
+						</a>
+					</div>
+					<div class="socialBlock">
+						<a href="#">
+							<img src="../res/icons/instagram.png" alt="instagram">
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
