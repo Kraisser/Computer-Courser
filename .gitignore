@@ -5,3 +5,5 @@ index.html
 !/dist/index.html
 *.json
 *.config.js
+*.js.map
+*.hot-update.js
