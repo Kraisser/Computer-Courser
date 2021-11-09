@@ -14,15 +14,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_burger_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/burger.js */ "./script/modules/burger.js");
 /* harmony import */ var _modules_backTimer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/backTimer.js */ "./script/modules/backTimer.js");
 /* harmony import */ var _modules_progressBarDuobleGradient_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/progressBarDuobleGradient.js */ "./script/modules/progressBarDuobleGradient.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/header.css */ "./css/header.css");
-/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/main.css */ "./css/main.css");
-/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/common.css */ "./css/common.css");
+/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/header.css */ "./css/header.css");
+/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/main.css */ "./css/main.css");
+/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/common.css */ "./css/common.css");
 
 
 
 
-
+ // import '../css/normalize.css';
 
 
 
@@ -649,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636480047873
+      // 1636494046730
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -668,7 +667,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636480047907
+      // 1636494046773
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -687,26 +686,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636480047863
-      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
-      module.hot.dispose(cssReload);
-      module.hot.accept(undefined, cssReload);
-    }
-  
-
-/***/ }),
-
-/***/ "./css/normalize.css":
-/*!***************************!*\
-  !*** ./css/normalize.css ***!
-  \***************************/
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-    if(true) {
-      // 1636480047845
+      // 1636494046714
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -797,7 +777,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "b82802bb2608c97e9cf0"; }
+/******/ 		__webpack_require__.h = function() { return "aa64fcb8d9329e927c30"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
