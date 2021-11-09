@@ -135,7 +135,9 @@ function BackTimer(date) {
   };
 
   this.dayText = function () {
-    if (_this.dayLeft <= 4 && _this.dayLeft >= 2) {
+    var lastDayVal = _this.dayLeft.toString().split('').pop();
+
+    if (lastDayVal <= 4 && lastDayVal >= 2) {
       _this.setVal("dayText", "\u0414\u043D\u044F");
     } else if (_this.dayLeft === 1) {
       _this.setVal("dayText", "\u0414\u0435\u043D\u044C");
@@ -163,6 +165,10 @@ function BackTimer(date) {
     _this.secText();
 
     _this.minText();
+
+    _this.hourText();
+
+    _this.dayText();
 
     _this.setTime("min", _this.minLeft);
 
@@ -643,7 +649,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636476879798
+      // 1636480047873
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -662,7 +668,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636476879831
+      // 1636480047907
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -681,7 +687,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636476879787
+      // 1636480047863
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -700,7 +706,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636476879770
+      // 1636480047845
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -791,7 +797,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "d0c6c98bfa358b83fafc"; }
+/******/ 		__webpack_require__.h = function() { return "b82802bb2608c97e9cf0"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
