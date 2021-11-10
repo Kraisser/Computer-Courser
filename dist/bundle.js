@@ -2,26 +2,27 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./script/main.js":
-/*!************************!*\
-  !*** ./script/main.js ***!
-  \************************/
+/***/ "./src/script/main.js":
+/*!****************************!*\
+  !*** ./src/script/main.js ***!
+  \****************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_smoothScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/smoothScroll.js */ "./script/modules/smoothScroll.js");
-/* harmony import */ var _modules_mainBackground_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/mainBackground.js */ "./script/modules/mainBackground.js");
-/* harmony import */ var _modules_burger_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/burger.js */ "./script/modules/burger.js");
-/* harmony import */ var _modules_backTimer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/backTimer.js */ "./script/modules/backTimer.js");
-/* harmony import */ var _modules_progressBarDuobleGradient_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/progressBarDuobleGradient.js */ "./script/modules/progressBarDuobleGradient.js");
-/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/header.css */ "./css/header.css");
-/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/main.css */ "./css/main.css");
-/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/common.css */ "./css/common.css");
+/* harmony import */ var _modules_smoothScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/smoothScroll.js */ "./src/script/modules/smoothScroll.js");
+/* harmony import */ var _modules_mainBackground_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/mainBackground.js */ "./src/script/modules/mainBackground.js");
+/* harmony import */ var _modules_burger_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/burger.js */ "./src/script/modules/burger.js");
+/* harmony import */ var _modules_backTimer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/backTimer.js */ "./src/script/modules/backTimer.js");
+/* harmony import */ var _modules_progressBarDuobleGradient_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/progressBarDuobleGradient.js */ "./src/script/modules/progressBarDuobleGradient.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/normalize.css */ "./src/css/normalize.css");
+/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/common.css */ "./src/css/common.css");
+/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/header.css */ "./src/css/header.css");
+/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/main.css */ "./src/css/main.css");
 
 
 
 
- // import '../css/normalize.css';
+
 
 
 
@@ -40,10 +41,10 @@ backgroundChange.startObservation();
 
 /***/ }),
 
-/***/ "./script/modules/backTimer.js":
-/*!*************************************!*\
-  !*** ./script/modules/backTimer.js ***!
-  \*************************************/
+/***/ "./src/script/modules/backTimer.js":
+/*!*****************************************!*\
+  !*** ./src/script/modules/backTimer.js ***!
+  \*****************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -179,10 +180,10 @@ function BackTimer(date) {
 
 /***/ }),
 
-/***/ "./script/modules/burger.js":
-/*!**********************************!*\
-  !*** ./script/modules/burger.js ***!
-  \**********************************/
+/***/ "./src/script/modules/burger.js":
+/*!**************************************!*\
+  !*** ./src/script/modules/burger.js ***!
+  \**************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -226,10 +227,10 @@ function burger() {
 
 /***/ }),
 
-/***/ "./script/modules/mainBackground.js":
-/*!******************************************!*\
-  !*** ./script/modules/mainBackground.js ***!
-  \******************************************/
+/***/ "./src/script/modules/mainBackground.js":
+/*!**********************************************!*\
+  !*** ./src/script/modules/mainBackground.js ***!
+  \**********************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -287,10 +288,10 @@ var BackgroundImageLoad = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "./script/modules/progressBarDuobleGradient.js":
-/*!*****************************************************!*\
-  !*** ./script/modules/progressBarDuobleGradient.js ***!
-  \*****************************************************/
+/***/ "./src/script/modules/progressBarDuobleGradient.js":
+/*!*********************************************************!*\
+  !*** ./src/script/modules/progressBarDuobleGradient.js ***!
+  \*********************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -328,10 +329,10 @@ var ProgressBarDoubleGradient = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "./script/modules/smoothScroll.js":
-/*!****************************************!*\
-  !*** ./script/modules/smoothScroll.js ***!
-  \****************************************/
+/***/ "./src/script/modules/smoothScroll.js":
+/*!********************************************!*\
+  !*** ./src/script/modules/smoothScroll.js ***!
+  \********************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -638,17 +639,17 @@ module.exports = function (urlString) {
 
 /***/ }),
 
-/***/ "./css/common.css":
-/*!************************!*\
-  !*** ./css/common.css ***!
-  \************************/
+/***/ "./src/css/common.css":
+/*!****************************!*\
+  !*** ./src/css/common.css ***!
+  \****************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636494046730
+      // 1636568631166
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -657,17 +658,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./css/header.css":
-/*!************************!*\
-  !*** ./css/header.css ***!
-  \************************/
+/***/ "./src/css/header.css":
+/*!****************************!*\
+  !*** ./src/css/header.css ***!
+  \****************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636494046773
+      // 1636568631218
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -676,17 +677,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./css/main.css":
-/*!**********************!*\
-  !*** ./css/main.css ***!
-  \**********************/
+/***/ "./src/css/main.css":
+/*!**************************!*\
+  !*** ./src/css/main.css ***!
+  \**************************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
     if(true) {
-      // 1636494046714
+      // 1636568631176
+      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
+      module.hot.dispose(cssReload);
+      module.hot.accept(undefined, cssReload);
+    }
+  
+
+/***/ }),
+
+/***/ "./src/css/normalize.css":
+/*!*******************************!*\
+  !*** ./src/css/normalize.css ***!
+  \*******************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+    if(true) {
+      // 1636568631150
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -777,7 +797,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "aa64fcb8d9329e927c30"; }
+/******/ 		__webpack_require__.h = function() { return "dcd016d13bf7126b2385"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1858,7 +1878,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__("./script/main.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/script/main.js");
 /******/ 	
 /******/ })()
 ;

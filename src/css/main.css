@@ -1,0 +1,667 @@
+.sectionHeader {
+	margin: 0;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.coursesStats {
+	display: flex;
+	justify-content: space-between;
+	background-color: #121212;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+.orderCourse {
+	margin-right: 81px;
+	display: flex;
+	align-items: center;
+}
+.orderCourseBut {
+	padding: 10px 30px;
+	background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+	border: 0;
+	border-radius: 50px;
+}
+.studentsStatsWrapper {
+	flex-basis: 250px;
+	margin-right: 81px;
+}
+.studentsStat {
+	display: flex;
+	justify-content: space-between;
+}
+.studentsStat:first-child {
+	margin-bottom: 10px;
+}
+.moneyStats {
+	flex-grow: 1;
+	max-width: 700px;
+	min-width: 260px;
+}
+.studentsEarn {
+	display: flex;
+	justify-content: space-between;
+	max-width: 280px;
+	margin-bottom: 5px;
+}
+.moneyEarnProgressContainer {
+	width: 100%;
+	height: 6px;
+	background-color: #fff;
+	margin-bottom: 7px;
+}
+.moneyEarnProgressContainer div {
+	height: 6px;
+}
+.moneyTarget {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutUsSection {
+	display: flex;
+}
+.aboutUsHeader {
+	margin: 75px 0 45px;
+}
+.aboutUsDescription {
+	margin: 0;
+}
+.imageOnBorder {
+	position: absolute;
+	top: 66px;
+}
+.gradientBorderImageContainer {
+	position: relative;
+	margin-right: 10%;
+	border: 30px solid #c89afc;
+	border-image: linear-gradient(90deg, #c89afc, #7c6afa);
+	border-image-slice: 1;
+	min-width: 525px;
+	height: 500px;
+}
+
+.fastStartHeaderWrapper {
+	display: grid;
+	max-width: 520px;
+	max-height: 250px;
+	grid-gap: 20px 20px;
+	margin-bottom: 80px;
+	grid-template-areas:
+		'img header'
+		'description description';
+}
+.fastStartHeader {
+	grid-area: header;
+	align-self: center;
+}
+.fastStartHeader img {
+	grid-area: img;
+}
+.fastStartHeaderDescription {
+	grid-area: description;
+	max-width: 410px;
+	margin: 0;
+}
+
+.percentStatsWrapper {
+	display: flex;
+}
+.percentStat {
+	flex-grow: 1;
+}
+.percent {
+	font-size: 38px;
+}
+.percentStat:nth-of-type(1) .percent {
+	padding-bottom: 20px;
+	border-bottom: solid 80px #c89afc;
+	border-image: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+	border-image-slice: 1;
+	margin-bottom: 35px;
+}
+.percentStat:nth-of-type(2) .percent {
+	padding-bottom: 30px;
+	border-bottom: solid 60px #7c6afa;
+	border-image: linear-gradient(282.78deg, #c89afc 9.51%, #7c6afa 90.23%);
+	border-image-slice: 1;
+	margin-bottom: 45px;
+}
+.percentStat:nth-of-type(3) .percent {
+	padding-bottom: 45px;
+	border-bottom: solid 30px #c89afc;
+	border-image: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+	border-image-slice: 1;
+	margin-bottom: 60px;
+}
+.percentStat:nth-of-type(4) .percent {
+	padding-bottom: 55px;
+	border-bottom: solid 10px #7c6afa;
+	border-image: linear-gradient(282.78deg, #c89afc 9.51%, #7c6afa 90.23%);
+	border-image-slice: 1;
+	margin-bottom: 70px;
+}
+.percentDescription {
+	padding-right: 18px;
+	font-size: 14px;
+}
+
+.getProfessionHeader {
+	margin-bottom: 120px;
+	text-align: center;
+}
+.getProfessionContainer {
+	display: grid;
+	grid-template-areas:
+		'img1 img2 img3'
+		'header1 header2 header3'
+		'description1 description2 description3';
+	grid-column-gap: 10px;
+}
+.getProfessionContainer img {
+	margin: 0 auto 60px;
+}
+.getProfessionContainer img:nth-of-type(1) {
+	grid-area: img1;
+}
+.getProfessionContainer img:nth-of-type(2) {
+	grid-area: img2;
+}
+.getProfessionContainer img:nth-of-type(3) {
+	grid-area: img3;
+}
+.getProfessionContainer .professionHeader:nth-of-type(1) {
+	grid-area: header1;
+}
+.getProfessionContainer .professionHeader:nth-of-type(2) {
+	grid-area: header2;
+}
+.getProfessionContainer .professionHeader:nth-of-type(3) {
+	grid-area: header3;
+}
+.getProfessionContainer .professionDescription:nth-of-type(1) {
+	grid-area: description1;
+}
+.getProfessionContainer .professionDescription:nth-of-type(2) {
+	grid-area: description2;
+}
+.getProfessionContainer .professionDescription:nth-of-type(3) {
+	grid-area: description3;
+}
+.professionHeader {
+	text-align: center;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 0 0 30px;
+}
+.professionDescription {
+	max-width: 350px;
+	text-align: center;
+	margin: 0;
+}
+
+.partnerHeaderWrapper {
+	display: flex;
+	margin-bottom: 60px;
+}
+.partnerHeaderWrapper img {
+	transform: rotate(180deg);
+}
+.partnerHeader {
+	align-self: center;
+	margin-left: 20px;
+}
+.partnersContainer {
+	display: grid;
+	grid: repeat(2, 1fr) / repeat(4, 1fr);
+}
+.partnersContainer div {
+	padding: 10% 20%;
+	border-right: solid 1px #828282;
+	border-bottom: solid 1px #828282;
+}
+.partnersContainer div img {
+	width: 100%;
+	height: 100%;
+}
+.partnersContainer div:nth-child(4),
+.partnersContainer div:nth-child(8) {
+	border-right: 0;
+}
+.partnersContainer div:nth-child(5),
+.partnersContainer div:nth-child(6),
+.partnersContainer div:nth-child(7),
+.partnersContainer div:nth-child(8) {
+	border-bottom: 0;
+}
+
+.programHeaderWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 90px;
+}
+.programHeaderWrapper img {
+	transform: rotate(135deg);
+	margin-bottom: 30px;
+}
+.programHeader {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.programDescription {
+	margin: 0;
+	max-width: 410px;
+	text-align: center;
+}
+
+.programWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.weekProgramWrapper {
+	width: 580px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.weekBlock {
+	display: flex;
+}
+.commonWeekBlock {
+	max-width: 230px;
+}
+.leftSideWeek .weekNumber {
+	text-align: right;
+}
+.rightSideWeek {
+	justify-content: flex-end;
+}
+.weekNumber {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.weekDescription {
+	font-size: 18px;
+}
+.verticalLine {
+	position: absolute;
+	background: linear-gradient(90deg, #c89afc 9.51%, #7c6afa 90.23%);
+	width: 6px;
+	left: 50%;
+	right: 50%;
+	top: -10px;
+	bottom: -10px;
+}
+
+.teachersHeaderWrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 120px;
+}
+.teachersHeaderWrapper h3 {
+	margin-left: 20px;
+}
+.teachersHeaderWrapper img {
+	transform: rotate(315deg);
+}
+.teachersListWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.teacherBlock {
+	width: 415px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.teacherBlock img {
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+.teacherNameHeader {
+	margin: 0 0 15px;
+}
+.teacherDescription {
+	margin-bottom: 30px;
+}
+.biographyLink {
+	padding: 10px 30px;
+	border-radius: 50px;
+	border: solid 1px #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.subscribeWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.subscribeHeader {
+	margin-bottom: 30px;
+}
+.subscribeDescription {
+	max-width: 410px;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 60px;
+}
+.subscribeForm {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 500px;
+	margin-bottom: 40px;
+}
+.subscribeMailBackground,
+.subscribeMail {
+	width: 350px;
+	height: 45px;
+	border-radius: 50px;
+}
+.subscribeMailBackground {
+	position: absolute;
+	opacity: 0.25;
+	background-color: #fff;
+}
+.subscribeMail {
+	background-color: transparent;
+	z-index: 2;
+	border: 0;
+	color: #fff;
+	padding: 10px 30px;
+}
+.subscribeMail::placeholder {
+	color: #fff;
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+.subscribeMail:focus::placeholder {
+	opacity: 0;
+}
+.subscribeMail:focus {
+	border: 0;
+	opacity: 1;
+	outline: 0;
+}
+.subscribeBut {
+	position: absolute;
+	right: 20px;
+	width: 160px;
+	height: 45px;
+	border-radius: 50px;
+	border: 0;
+	cursor: pointer;
+	z-index: 3;
+	padding: 10px 30px;
+	color: #fff;
+	background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}
+.socialContainer {
+	display: flex;
+	width: 290px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.socialBlock {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, #c89afc 9.51%, #7c6afa 90.23%);
+	transition: all 0.3 ease;
+}
+.socialBlock:hover {
+	box-shadow: inset 0px 0px 3px 0px #000;
+	background: linear-gradient(270deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.socialBlock a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+/* Media */
+@media only all and (max-width: 930px) {
+	.coursesStats {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.gradientBorderImageContainer {
+		margin-right: 5%;
+	}
+}
+@media only all and (max-width: 870px) {
+	.sectionHeader {
+		font-size: 36px;
+	}
+	.orderCourse,
+	.studentsStatsWrapper {
+		margin-right: 15px;
+	}
+	.gradientBorderImageContainer {
+		min-width: 400px;
+		height: 375px;
+	}
+	.gradientBorderImageContainer img {
+		width: 320px;
+	}
+
+	.getProfessionHeader {
+		margin-bottom: 80px;
+	}
+}
+@media only all and (max-width: 790px) {
+	.sectionHeader {
+		text-align: center;
+		margin: 0;
+	}
+
+	.subscribeHeader,
+	.programHeader,
+	.getProfessionHeader {
+		margin-bottom: 30px;
+	}
+
+	.ellipseLogo {
+		width: 100px;
+	}
+	.coursesStats {
+		flex-direction: column;
+		align-items: center;
+	}
+	.orderCourse,
+	.studentsStatsWrapper {
+		margin-right: 0;
+	}
+	.orderCourse {
+		margin-bottom: 20px;
+	}
+	.studentsStatsWrapper {
+		flex-basis: auto;
+		max-width: 400px;
+		min-width: 280px;
+		margin-bottom: 40px;
+	}
+	.moneyStats {
+		width: 100%;
+	}
+
+	.aboutUsHeader {
+		margin-bottom: 45px;
+	}
+	.aboutUsSection {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.gradientBorderImageContainer {
+		margin: 0 0 75px;
+	}
+
+	.fastStartHeaderWrapper {
+		grid-template-areas:
+			'img'
+			'header'
+			'description';
+		max-width: none;
+	}
+	.fastStartHeaderWrapper img {
+		margin: 0 auto;
+	}
+	.fastStartHeaderDescription {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.partnerHeaderWrapper {
+		flex-direction: column;
+	}
+	.partnerHeaderWrapper img {
+		margin: 0 auto;
+	}
+	.partnersContainer div {
+		padding: 5px;
+	}
+
+	.weekProgramWrapper {
+		width: 500px;
+	}
+
+	.teachersHeaderWrapper {
+		flex-direction: column;
+	}
+	.teachersHeaderWrapper h3 {
+		text-align: center;
+		margin-left: 0;
+	}
+	.teachersListWrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.teacherBlock {
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+	.subscribeForm {
+		height: 100px;
+		width: auto;
+	}
+	.subscribeBut {
+		top: 55px;
+		right: auto;
+	}
+}
+@media only all and (max-width: 560px) {
+	.getProfessionContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.getProfessionContainer img {
+		margin: 60px auto 60px;
+	}
+
+	.weekProgramWrapper {
+		width: 280px;
+	}
+	.commonWeekBlock {
+		margin-bottom: 15px;
+	}
+	.weekProgramWrapper .weekBlock:last-child .commonWeekBlock {
+		margin-bottom: 0;
+	}
+	.weekNumber {
+		margin-bottom: 10px;
+	}
+	.rightSideWeek {
+		justify-content: start;
+	}
+	.rightSideWeek .weekNumber {
+		text-align: right;
+	}
+	.verticalLine {
+		left: 240px;
+		right: 0;
+	}
+}
+@media only all and (max-width: 450px) {
+	.gradientBorderImageContainer {
+		min-width: 280px;
+		height: 305px;
+		margin-bottom: 30px;
+	}
+	.gradientBorderImageContainer img {
+		width: 240px;
+		top: 25px;
+		left: 10px;
+	}
+
+	.partnersContainer {
+		grid: repeat(4, 1fr) / repeat(2, 1fr);
+	}
+	.partnersContainer div {
+		padding: 10px;
+	}
+	.partnersContainer div:nth-of-type(2) {
+		border-right: 0;
+	}
+	.partnersContainer div:nth-of-type(5) {
+		border-bottom: solid 1px #828282;
+	}
+	.partnersContainer div:nth-of-type(6) {
+		border-right: 0;
+		border-bottom: solid 1px #828282;
+	}
+
+	.percentStatsWrapper {
+		flex-direction: column;
+	}
+	.percentStat:nth-of-type(n + 1) .percent {
+		border: 0;
+		padding-bottom: 0;
+		margin-bottom: 15px;
+	}
+	.percentDescription {
+		margin-bottom: 30px;
+	}
+	.percentStatsWrapper .percentStat:nth-of-type(1) {
+		border-right: solid 80px #c89afc;
+		border-image: linear-gradient(180deg, #c89afc 9.51%, #7c6afa 90.23%);
+		border-image-slice: 1;
+	}
+	.percentStatsWrapper .percentStat:nth-of-type(2) {
+		border-right: solid 60px #c89afc;
+		border-image: linear-gradient(0deg, #c89afc 9.51%, #7c6afa 90.23%);
+		border-image-slice: 1;
+		margin-right: 10px;
+	}
+	.percentStatsWrapper .percentStat:nth-of-type(3) {
+		border-right: solid 30px #c89afc;
+		border-image: linear-gradient(180deg, #c89afc 9.51%, #7c6afa 90.23%);
+		border-image-slice: 1;
+		margin-right: 25px;
+	}
+	.percentStatsWrapper .percentStat:nth-of-type(4) {
+		border-right: solid 10px #c89afc;
+		border-image: linear-gradient(0deg, #c89afc 9.51%, #7c6afa 90.23%);
+		border-image-slice: 1;
+		margin-right: 35px;
+	}
+	.percentStatsWrapper .percentStat:nth-of-type(4) .percentDescription {
+		margin-bottom: 0;
+	}
+
+	.subscribeForm {
+		width: 100%;
+	}
+	.subscribeMailBackground,
+	.subscribeMail {
+		width: 280px;
+	}
+}

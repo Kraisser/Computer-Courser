@@ -1,0 +1,341 @@
+.header {
+	background: url('../res/main-screen__bgc.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.headerBackground1100 {
+	background: url('../res/main-screen__bgc1100.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.menuWrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 80px 0;
+}
+.leftHeader {
+	display: flex;
+	flex-grow: 2;
+	align-items: center;
+}
+.rightHeader {
+	display: flex;
+	align-items: center;
+}
+.mainLogo {
+	width: 40px;
+	height: 40px;
+	background-image: url('../res/icons/mainLogo.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.menuNav {
+	margin: 0 auto;
+}
+.menuList {
+	display: flex;
+	padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.menuItem:last-of-type {
+	margin-right: 0;
+}
+.menuItem {
+	margin-right: 50px;
+}
+.menuLink {
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: 5px;
+	border-bottom: solid 3px transparent;
+	transition: all 0.5s ease;
+}
+.menuLink:hover {
+	border-bottom: solid 3px #df5950;
+	border-image: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+	border-image-slice: 1;
+}
+
+/* burger */
+.burgerMenuList {
+	padding: 0;
+	list-style-type: none;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.burgerMenuList a {
+	width: 100%;
+}
+.burgerMenuContainer {
+	position: absolute;
+	background-color: #404040;
+	left: 35%;
+	right: 35%;
+	top: 60px;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s ease-in-out;
+}
+.menuOpen {
+	height: 201px;
+}
+.burgerMenuItem {
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+}
+.burgerMenuContainer .burgerMenuItem:last-child {
+	margin-bottom: 0;
+}
+.menuBurger {
+	position: absolute;
+	display: none;
+	width: 60px;
+	height: 45px;
+	position: relative;
+	cursor: pointer;
+}
+.menuBurger span {
+	position: absolute;
+	background-color: #fff;
+	width: 40px;
+	left: 10px;
+	height: 5px;
+	border-radius: 50px;
+	background: linear-gradient(90deg, #c89afc, #7c6afa);
+	animation-fill-mode: both;
+}
+.menuBurger span:nth-child(1) {
+	top: 10px;
+}
+.menuBurger span:nth-child(2) {
+	top: 20px;
+}
+.menuBurger span:nth-child(3) {
+	top: 30px;
+}
+
+.span1CrossAnim {
+	animation: span1CrossOpen 0.5s ease;
+}
+.span2CrossAnim {
+	animation: span2CrossOpen 0.5s ease;
+}
+.span1CrossAnimBack {
+	animation: span1CrossClose 0.5s ease;
+}
+.span2CrossAnimBack {
+	animation: span2CrossClose 0.5s ease;
+}
+.span3Hide {
+	animation: span3Opacity 0.4s ease;
+}
+.span3Show {
+	animation: span3OpacityFull 0.4s ease;
+}
+/*  */
+
+.loginButWrapper {
+	display: flex;
+	align-items: flex-end;
+}
+.loginBut {
+	background: linear-gradient(90deg, #c89afc 9.51%, #7c6afa 90.23%);
+	border: 0;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.loginBut img {
+	display: none;
+}
+.loginBut:hover {
+	background: linear-gradient(270deg, #c89afc 9.51%, #7c6afa 90.23%);
+	box-shadow: inset 0px 0px 5px 0px #000;
+}
+.mainLogoTimer {
+	max-width: 900px;
+}
+.mainDescription {
+	font-weight: 700;
+	font-size: 64px;
+	margin: 0 0 50px;
+}
+.timerWrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 107px);
+	grid-template-rows: 112px;
+	grid-column-gap: 30px;
+}
+.headerTimer {
+	padding-top: 190px;
+	padding-bottom: 216px;
+}
+.timerBlock {
+	background-color: #121212;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.clock {
+	font-weight: bold;
+	font-size: 36px;
+}
+.timeBlockName {
+	font-size: 16px;
+}
+
+/* Media */
+@media only all and (max-width: 1500px) {
+	.menuWrapper {
+		padding: 10px 20px;
+	}
+}
+@media only all and (max-width: 1300px) {
+	.menuWrapper {
+		background-color: #404040;
+	}
+}
+@media only all and (max-width: 1100px) {
+	.menuItem {
+		margin-right: 20px;
+	}
+}
+@media only all and (max-width: 1000px) {
+	.loginBut {
+		padding: 5px 5px;
+	}
+	.loginBut img {
+		display: block;
+	}
+	.loginBut span {
+		display: none;
+	}
+}
+@media only all and (max-width: 790px) {
+	.menuWrapper {
+		position: fixed;
+		left: 0;
+		right: 0;
+		padding: 10px 20px;
+		z-index: 2;
+		background-color: #404040;
+	}
+	.leftHeader {
+		flex-grow: 0;
+	}
+	.menuList {
+		display: none;
+	}
+	.menuBurger {
+		display: block;
+	}
+	.menuNav {
+		display: none;
+	}
+}
+@media only all and (max-width: 600px) {
+	.header {
+		background-position: 90%;
+	}
+	.mainDescription {
+		font-size: 48px;
+	}
+	.timerWrapper {
+		grid-template-columns: repeat(4, 80px);
+		grid-template-rows: 80px;
+	}
+	.clock {
+		font-size: 24px;
+	}
+	.timeBlockName {
+		font-size: 14px;
+	}
+}
+@media only all and (max-width: 460px) {
+	.burgerMenuContainer {
+		left: 25%;
+		right: 25%;
+	}
+	.mainDescription {
+		font-size: 30px;
+	}
+
+	.timerWrapper {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 70px;
+		grid-column-gap: 5px;
+	}
+}
+
+/* Anim */
+@keyframes span1CrossOpen {
+	from {
+		transform: translateY(0);
+	}
+	60% {
+		transform: translateY(20px);
+	}
+	to {
+		transform: translateY(10px) rotate(45deg);
+	}
+}
+@keyframes span2CrossOpen {
+	from {
+		transform: translateY(0);
+	}
+	60% {
+		transform: translateY(10px);
+	}
+	to {
+		transform: translateY(0) rotate(-45deg);
+	}
+}
+@keyframes span1CrossClose {
+	from {
+		transform: translateY(10px) rotate(45deg);
+	}
+	60% {
+		transform: translateY(20px);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+@keyframes span2CrossClose {
+	from {
+		transform: translateY(0) rotate(-45deg);
+	}
+	60% {
+		transform: translateY(10px);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+@keyframes span3Opacity {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@keyframes span3OpacityFull {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/*  */

@@ -1,0 +1,47 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background: linear-gradient(#111, transparent 2px), linear-gradient(90deg, #111, transparent 2px), #000;
+	background-size: 15px 15px;
+	background-position: center center;
+}
+.commonWrapper {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.commonWrapperPaddingTop {
+	padding-top: 200px;
+}
+.whiteBoldText {
+	font-weight: 700;
+	color: #fff;
+}
+.opacity40 {
+	opacity: 0.4;
+}
+.opacity50 {
+	opacity: 0.5;
+}
+.opacity80 {
+	opacity: 0.8;
+}
+
+/* Media */
+@media only all and (max-width: 1250px) {
+	.commonWrapper {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+@media only all and (max-width: 960px) {
+	.commonWrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media only all and (max-width: 750px) {
+	.commonWrapperPaddingTop {
+		padding-top: 100px;
+	}
+}
+/*  */

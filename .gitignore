@@ -1,8 +1,6 @@
-/css
 /node_modules
-/script
-index.html
-!/dist/index.html
+/dist
+/prod
 *.json
 *.config.js
 *.js.map
