@@ -9,13 +9,17 @@ import '../css/common.css';
 import '../css/header.css';
 import '../css/main.css';
 
-
-let dateTimerBack = new Date(2021, 11, 13),
-courseBack = new BackTimer(dateTimerBack);
+let dateTimerBack = new Date(2022, 9, 14),
+	courseBack = new BackTimer(dateTimerBack);
 courseBack.startTimer();
 
 let studentsEarnTarget = document.querySelector(`#earnProgress`);
-let studentsEarnProgress = new ProgressBarDoubleGradient(studentsEarnTarget, 95, `#DF5950`, `#451046`);
+let studentsEarnProgress = new ProgressBarDoubleGradient(
+	studentsEarnTarget,
+	95,
+	`#DF5950`,
+	`#451046`
+);
 
 studentsEarnProgress.setBackground(40);
 
