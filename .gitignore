@@ -1,6 +1,4 @@
 /node_modules
-/dist
-*.json
-*.config.js
+**/prod
 *.js.map
 *.hot-update.js
